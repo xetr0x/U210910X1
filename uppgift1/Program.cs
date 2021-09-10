@@ -48,6 +48,10 @@ namespace uppgift1
                     }
                 }
 
+                if (x == "4")
+                {
+                    break;
+                }
 
 
             }
