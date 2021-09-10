@@ -37,7 +37,18 @@ namespace uppgift1
 
                 }
 
-             
+                if (x == "3")
+                {
+                    
+                    foreach (costumer c in person)
+                    {
+                        Console.WriteLine($"{c.costumername} {c.costumerage} {c.costumerheight}");
+                        Console.WriteLine($"{c.costumername} {c.costumerage} {c.costumerheight}");
+                        Console.WriteLine($"{c.costumername} {c.costumerage} {c.costumerheight}");
+                    }
+                }
+
+
 
             }
         }
