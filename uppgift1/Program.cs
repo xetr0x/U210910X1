@@ -52,7 +52,10 @@ namespace uppgift1
                 {
                     break;
                 }
-
+                if (x != "1" && x != "2" && x != "3" && x != "4")
+                {
+                    Console.WriteLine("skriv in 1, 2 , 3 eller 4!!!");
+                }
 
             }
         }
