@@ -31,7 +31,13 @@ namespace uppgift1
                     
                     
                 }
-                
+                if (x == "2")
+                {
+                    Console.WriteLine($" Antalet personer i databasen: {person.Count} " );
+
+                }
+
+             
 
             }
         }
